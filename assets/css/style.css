@@ -4,3 +4,13 @@
 body {
     background: #CBF3D2;
 }
+
+h1 {
+    color: #5E54C9;
+    font-family: 'Marhey', sans-serif;
+}
+
+p {
+    color: #52144C;
+    font-family: 'Kanit', sans-serif;
+}
