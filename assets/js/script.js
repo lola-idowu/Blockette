@@ -43,5 +43,26 @@ function generateCards() {
     }
 }
 
+function flipcard() {
+    if (lockBoard) return;
+    if (this === firstCard) return;
+
+    this.classlist.add("flipped");
+
+    if (!firstCard) {
+        firstCard = this;
+        return;
+    }
+
+    secondCard = this;
+    score++;
+    document.querySelector(".score").textContent = score;
+    lockBoard = true;
+
+    checkForMath();
+}
+
+function
+
 
 
