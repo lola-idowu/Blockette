@@ -1,0 +1,91 @@
+[
+    {
+        "image": "../assets/chick.png",
+        "name": "chick"
+    },
+
+    {
+        "image": "../assets/cow.png",
+        "name": "cow"
+    },
+
+    {
+        "image": "../assets/crab.png",
+        "name": "crab"
+    },
+
+    {
+        "image": "../assets/dog.png",
+        "name": "dog"
+    },
+
+    {
+        "image": "../assets/fox.png",
+        "name": "fox"
+    },
+
+    {
+        "image": "../assets/grey.monkey.png",
+        "name": "grey.monkey"
+    },
+
+    {
+        "image": "../assets/hamster.png",
+        "name": "hamster"
+    },
+
+    {
+        "image": "../assets/horse.png",
+        "name": "horse"
+    },
+
+    {
+        "image": "../assets/ladybug.png",
+        "name": "ladybug"
+    },
+
+    {
+        "image": "../assets/lion.png",
+        "name": "lion"
+    },
+
+    {
+        "image": "../assets/monkey.png",
+        "name": "monkey"
+    },
+
+    {
+        "image": "../assets/owl.png",
+        "name": "owl"
+    },
+
+    {
+        "image": "../assets/pig.png",
+        "name": "pig"
+    },
+
+    {
+        "image": "../assets/puffin.png",
+        "name": "puffin"
+    },
+
+    {
+        "image": "../assets/python.png",
+        "name": "python"
+    },
+
+    {
+        "image": "../assets/seal.png",
+        "name": "seal"
+    },
+
+    {
+        "image": "../assets/turket.png",
+        "name": "turkey"
+    },
+
+    {
+        "image": "../assets/whale.png",
+        "name": "whale"
+    },
+]
