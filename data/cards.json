@@ -1,91 +1,91 @@
 [
     {
-        "image": "../assets/chick.png",
-        "name": "chick"
-    },
-
-    {
-        "image": "../assets/cow.png",
-        "name": "cow"
-    },
-
-    {
-        "image": "../assets/crab.png",
+        "image": "../assets/images/crab.png",
         "name": "crab"
     },
 
     {
-        "image": "../assets/dog.png",
+        "image": "../assets/images/cow.png",
+        "name": "cow"
+    },
+
+    {
+        "image": "../assets/images/chick.png",
+        "name": "chick"
+    },
+
+    {
+        "image": "../assets/images/dog.png",
         "name": "dog"
     },
 
     {
-        "image": "../assets/fox.png",
+        "image": "../assets/images/fox.png",
         "name": "fox"
     },
 
     {
-        "image": "../assets/grey.monkey.png",
+        "image": "../assets/images/grey.monkey.png",
         "name": "grey.monkey"
     },
 
     {
-        "image": "../assets/hamster.png",
+        "image": "../assets/images/hamster.png",
         "name": "hamster"
     },
 
     {
-        "image": "../assets/horse.png",
+        "image": "../assets/images/horse.png",
         "name": "horse"
     },
 
     {
-        "image": "../assets/ladybug.png",
+        "image": "../assets/images/ladybug.png",
         "name": "ladybug"
     },
 
     {
-        "image": "../assets/lion.png",
+        "image": "../assets/images/lion.png",
         "name": "lion"
     },
 
     {
-        "image": "../assets/monkey.png",
+        "image": "../assets/images/monkey.png",
         "name": "monkey"
     },
 
     {
-        "image": "../assets/owl.png",
+        "image": "../assets/images/owl.png",
         "name": "owl"
     },
 
     {
-        "image": "../assets/pig.png",
+        "image": "../assets/images/pig.png",
         "name": "pig"
     },
 
     {
-        "image": "../assets/puffin.png",
+        "image": "../assets/images/puffin.png",
         "name": "puffin"
     },
 
     {
-        "image": "../assets/python.png",
+        "image": "../assets/images/python.png",
         "name": "python"
     },
 
     {
-        "image": "../assets/seal.png",
+        "image": "../assets/images/seal.png",
         "name": "seal"
     },
 
     {
-        "image": "../assets/turket.png",
+        "image": "../assets/images/turket.png",
         "name": "turkey"
     },
 
     {
-        "image": "../assets/whale.png",
+        "image": "../assets/images/whale.png",
         "name": "whale"
     },
 ]

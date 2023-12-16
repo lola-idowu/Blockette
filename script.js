@@ -1,17 +1,17 @@
 const gridContainer = document.querySelector(".grid-container");
 let cards = [];
 let firstCard, secondCard;
-let lockboard = false;
+let lockBoard = false;
 let score = 0;
 
 document.querySelector(".score").textContent = score;
 
-fetch("./data/cards.json");
+fetch("./data/cards.json")
     .then((res) => res.json())
     .then((data) => {
         cards = [...data, ...data];
-        shuffleCards();
-        generateCards();
+    shuffleCards();
+    generateCards();
     });
 
 function shuffleCards() {
@@ -33,7 +33,7 @@ function generateCards() {
         cardElement.classList.add("card");
         cardElement.setAttribute("data-name", card.name);
         cardElement.innerHTML = `
-            <div class= "front">
+            <div class="front">
                 <img class="front-image" src=${card.image} />
             </div>
             <div class="back"></div>
@@ -43,11 +43,11 @@ function generateCards() {
     }
 }
 
-function flipcard() {
+function flipCard() {
     if (lockBoard) return;
     if (this === firstCard) return;
 
-    this.classlist.add("flipped");
+    this.classList.add("flipped");
 
     if (!firstCard) {
         firstCard = this;
@@ -59,7 +59,7 @@ function flipcard() {
     document.querySelector(".score").textContent = score;
     lockBoard = true;
 
-    checkForMath();
+    checkForMatch();
 }
 
 function checkForMatch() {
@@ -68,7 +68,7 @@ function checkForMatch() {
     isMatch ? disableCards() : unflipCards();
 }
 
-function disableCards () {
+function disableCards() {
     firstCard.removeEventListener("click", flipCard);
     secondCard.removeEventListener("click", flipCard);
 
@@ -89,5 +89,12 @@ function resetBoard() {
     lockBoard = false;
 }
 
-
+function restart() {
+    resetBoard();
+    shuffleCards();
+    score = 0;
+    document.querySelector(".score").textContent = score;
+    gridContainer.innerHTML = "";
+    generateCards();
+}
 
