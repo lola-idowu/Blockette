@@ -1,1 +1,9 @@
-console.log("Connected!")
+const gridContainer = document.querySelector(".grid-container");
+let cards = []
+let firstCard,secondCard;
+let lockboard = false;
+let score = 0;
+
+document .querySelector(".score").textContent = score;
+
+fetch("")

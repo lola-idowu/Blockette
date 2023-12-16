@@ -2,9 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Marhey&family=Urbanist&display=swap');
 
 body {
-    background: #CBF3D2;
+    background: #B7C0EE;
     min-height: 100vh;
     min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -21,6 +24,21 @@ p {
     text-align: center;
 }
 
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: #CBF3D2;
+    padding: 40px;
+    height: 70%;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 0.2);
+}
+
 .buttons-area {
     display: flex;
     justify-content: center;
@@ -32,6 +50,9 @@ p {
     border-radius: 10px;
     background-color: #B7C0EE;
     color: #52144C;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 0.2);
+    border-color: #5E54C9;
+    border-width: 5px;
 }
 
 .card-area {
