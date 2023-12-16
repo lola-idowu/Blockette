@@ -18,13 +18,26 @@ The purpose of the user stories is to allow for user focused design in order to 
 
 **As a user visiting this site I want:**
 
-- To explore available music lessons that align with my skill level and interests
-- To learn about Musicity's music program, outlining lesson programs
-- Find informatio about the instructors, including their qualifications and teaching styles
-- To access Musicity's socisal media
-- Easily navigate throught the site and find comprehensive information about Musicity's offerings
-- To be able to request a trial lesson or consultation to assess Musicity's suitability
-- To read success stories from previous students, in order to ensure that the provided services are of high quality
+- As a casual gamer, I want to play a memory card game to unwind and challenge my memory skills during short breaks throughout the day.
+
+- As a parent, I want my child to play a memory card game that is both entertaining and helps in enhancing their concentration and memory abilities.
+
+- As a senior citizen, I want to engage in a memory card game to keep my mind active and maintain cognitive sharpness.
+
+- As a student, I want to play a memory card game to improve my memory retention and enhance my concentration for better academic performance.
+
+- As a competitive gamer, I want to challenge my friends or other players in a memory card game to test and improve my memory skills against others.
+
+- As someone undergoing rehabilitation for memory-related issues, I want to use a memory card game as part of my therapy to improve my memory retention and cognitive abilities.
+
+- As a teacher, I want to use a memory card game in my classroom to make learning fun while helping students improve their memory and focus.
+
+- As a user new to memory card games, I want a tutorial or beginner levels in the game to understand how to play and gradually enhance my memory skills.
+
+- As a working professional, I want a memory card game that I can play on my phone or computer to de-stress and exercise my mind during breaks.
+
+- As a researcher in the field of cognitive sciences, I want to explore a memory card game to study its impact on memory enhancement and concentration.
+
 
 ### Responsive Web Design
 
@@ -72,6 +85,17 @@ I chose a minimal and modern color palette, primarily centered around shades of 
 
 - JavaScript
 
+## Frameworks, Libraries and Programs Used
+
+- [Google Fonts](https://fonts.google.com)
+  - Google Fonts was used to import the font to the style.css, which is used on all pages throughout the project.
+- [Font Awesome](https://fontawesome.com/)
+  - Font Awesome was used on all necessary pages throughout the website to add icons for aesthetic and UX purposes.
+- [Git](https://git-scm.com/)
+  - Git was used for version control by utilising the Gitpod terminal to commit to Git and push to GitHub.
+- [GitHub](https://github.com/)
+  - GitHub was used to store the project's code after being pushed from Git.
+
 ## Testing
 
 ----
@@ -105,25 +129,9 @@ I employed the Wave tool, a web accessibility evaluation tool, within Chrome's d
 [Wave](https://wave.webaim.org)
 ![](assets/readmeimages/new%20thing%203.jpeg)
 
-## Manual Testing
+### JSHint
 
----
-
-- Forms and Functionality:
-  - Test any interactive elements such as sliders, accordions, or dropdown menus to ensure they work smoothly and as intended.
-  - Validate that any forms, search bars, or interactive elements are functional without errors.
--Image Loading Testing:
-  - Confirm that all images on the website load properly and display without errors.
-  - Test image responsiveness by resizing the browser window to various screen sizes to ensure images adapt accordingly.
-
-- Social Media Links Testing:
-  - Click on each social media icon or link to confirm that they direct users to the correct social media profiles or pages.
-  - Ensure that the links open in a new tab or window as expected.
-  - Check that social media icons are displayed consistently across different pages of the website.
-- Navigation Bar Testing:
-  - Test each navigation menu item to ensure they link to the correct pages.
-  - Check that the navigation menu is responsive and functions well on both desktop and mobile devices.
-  - Verify that there are no broken links within the navigation bar.
+* Use [JSHint Version 2.13.6](https://jshint.com/)
 
 ## Unfixed Bugs
 
@@ -145,4 +153,4 @@ No bugs left unfixed
 
 ### Content
 
-- The icons in the footer and contact section were obtained from [Font Awesome](https://fontawesome.com/)
+- The icons in the site were obtained from [Font Awesome](https://fontawesome.com/)
