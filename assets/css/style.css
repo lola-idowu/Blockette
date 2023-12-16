@@ -3,14 +3,33 @@
 
 body {
     background: #CBF3D2;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 h1 {
     color: #5E54C9;
     font-family: 'Marhey', sans-serif;
+    font-weight: 700;
+    font-size: 50 px;
+    text-align: center;
 }
 
 p {
     color: #52144C;
     font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+.buttons-area {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-area button {
+    padding: 8px 16px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #B7C0EE;
+    color: #52144C;
 }
