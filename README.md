@@ -1,12 +1,10 @@
-# Musicity
+# Blockette
 
-Musicity has been created and developed to inform users of the wide range of music lessons and programs on offer. The aim is to provide comprehensive information about the music lessons, instructors and the company's mission and goals.
+Blockette - a memory card game designed to challenge and enhance cognitive abilities
 
-Ultimately the goal is to promote the importance of musical education and encourage people of all ages and skill levels to explore, embrace and aim to improve their unique musical abilites
+Blockette aims to boost memory retention, focus, and cognitive agility. As players progress through various levels of difficulty, they're encouraged to sharpen their recall skills, creating a delightful fusion of entertainment and mental exercise.
 
-The site outlines the enrollment process and is makes it convinient for users to sign up for lessons. The site also entails clear calls-to-action and user-friendly navigation to guide users through the process
-
-The live site can be accessed [here](https://lola-idowu.github.io/Musicity/)
+The live site can be accessed [here](https://lola-idowu.github.io/Blockette/)
 
 ![Responsive Mockup](assets/images/amiresponsive.jpg)
 
@@ -47,17 +45,15 @@ The wireframes can be accessed [here](https://www.figma.com/file/wcPfEothtQly5j7
 
 ### Imagery
 
-Images were obtained from [Pexels](<https://www.pexels.com/>) and [iStock](https://www.istockphoto.com/)
+Images were obtained from [Freepik](<https://www.freepik.com/search?format=search&icon_color=multicolor&last_filter=page&last_value=2&page=2&query=animal&shape=fill&type=icon&sign-up=google>) and [FontAwesome](https://fontawesome.com/search?q=menu&o=r&m=free)
 
 ### Typography
 
 [Google Fonts](https://fonts.google.com/?preview.text=Musicity&preview.text_type=custom)
 
-**Site Logo** - Josefin, sans-serif
+**Site Logo** - Marhey, sans-serif
 
-**Subheadings** - Fredoka, sans-serif
-
-**Body text** - Poppins, sans-serif
+**Body text** - Kanit, sans-serif
 
 ### Colour Pallete
 
