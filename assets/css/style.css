@@ -33,3 +33,30 @@ p {
     background-color: #B7C0EE;
     color: #52144C;
 }
+
+.card-area {
+    display:grid;
+    justify-content: center;
+    grid-gap: 16 px;
+    grid-template-columns: repeat(6, 140px);
+    grid-template-rows: repeat(2, calc(140px/ 2 * 3));
+}
+
+.card {
+    height: calc(140px / 2 * 3);
+    width: 140px;
+    border-radius: 10px;
+    background-color: #7B287D;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+}
+
+.front-image {
+    width: 60px;
+    height: 60px;
+}
+
+.card .flipped {
+    transform: rotateY(180deg);
+}
