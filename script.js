@@ -6,7 +6,97 @@ let score = 0;
 
 document.querySelector(".score").textContent = score;
 
-fetch("./data/cards.json")
+var cardsArray = [[
+    {
+        "image": "../assets/images/crab.png",
+        "name": "crab"
+    },
+
+    {
+        "image": "../assets/images/cow.png",
+        "name": "cow"
+    },
+
+    {
+        "image": "../assets/images/chick.png",
+        "name": "chick"
+    },
+
+    {
+        "image": "../assets/images/dog.png",
+        "name": "dog"
+    },
+
+    {
+        "image": "../assets/images/fox.png",
+        "name": "fox"
+    },
+
+    {
+        "image": "../assets/images/grey.monkey.png",
+        "name": "grey.monkey"
+    },
+
+    {
+        "image": "../assets/images/hamster.png",
+        "name": "hamster"
+    },
+
+    {
+        "image": "../assets/images/horse.png",
+        "name": "horse"
+    },
+
+    {
+        "image": "../assets/images/ladybug.png",
+        "name": "ladybug"
+    },
+
+    {
+        "image": "../assets/images/lion.png",
+        "name": "lion"
+    },
+
+    {
+        "image": "../assets/images/monkey.png",
+        "name": "monkey"
+    },
+
+    {
+        "image": "../assets/images/owl.png",
+        "name": "owl"
+    },
+
+    {
+        "image": "../assets/images/pig.png",
+        "name": "pig"
+    },
+
+    {
+        "image": "../assets/images/puffin.png",
+        "name": "puffin"
+    },
+
+    {
+        "image": "../assets/images/python.png",
+        "name": "python"
+    },
+
+    {
+        "image": "../assets/images/seal.png",
+        "name": "seal"
+    },
+
+    {
+        "image": "../assets/images/turket.png",
+        "name": "turkey"
+    },
+
+    {
+        "image": "../assets/images/whale.png",
+        "name": "whale"
+    },
+]]
     .then((res) => res.json())
     .then((data) => {
         cards = [...data, ...data];
